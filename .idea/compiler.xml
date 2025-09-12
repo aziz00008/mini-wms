@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
+      <module name="gateway.main" options="-parameters" />
+      <module name="gateway.test" options="-parameters" />
+      <module name="iventoryservice" options="-parameters" />
+      <module name="iventoryservice.main" options="-parameters" />
+      <module name="iventoryservice.test" options="-parameters" />
+      <module name="orderservice" options="-parameters" />
+      <module name="orderservice.main" options="-parameters" />
+      <module name="orderservice.test" options="-parameters" />
+      <module name="pickingservice" options="-parameters" />
+      <module name="pickingservice.main" options="-parameters" />
+      <module name="pickingservice.test" options="-parameters" />
+      <module name="reportingservice" options="-parameters" />
+      <module name="reportingservice.main" options="-parameters" />
+      <module name="reportingservice.test" options="-parameters" />
+      <module name="shippingservice" options="-parameters" />
+      <module name="shippingservice.main" options="-parameters" />
+      <module name="shippingservice.test" options="-parameters" />
+    </option>
+  </component>
+</project>
