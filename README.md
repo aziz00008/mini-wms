@@ -27,6 +27,9 @@ Architecture Overview :
 5. **Reporting** aggregates data for dashboards to make it easier for pickers and warehouse supervisors to track the movements .
 
 
+![Architecture Diagram](docs/Architecture.png)
+
+
 
 ---
 
