@@ -24,7 +24,9 @@ Architecture Overview :
 2. Order Service calls **Inventory Service** to reserve stock  
 3. On success → order is (Allocated), on failure → (Rejected)  
 4. Later, **Picking & Shipping** update inventory (consume reserved → shipped)  
-5. **Reporting** aggregates data for dashboards to make it easier for pickers and warehouse supervisors to track the movements . 
+5. **Reporting** aggregates data for dashboards to make it easier for pickers and warehouse supervisors to track the movements .
+
+
 
 ---
 
@@ -35,6 +37,3 @@ Architecture Overview :
 - **CI/CD**: GitHub Actions (backend + frontend build/test)  
 
 
----
-
-## 📂 Project Structure
