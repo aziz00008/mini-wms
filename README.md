@@ -7,11 +7,10 @@ This is a microservices based Warehouse Management System Project built with Spr
  Architecture : 
 Services
 - **Inventory Service** (port 8081) → Manages Articles, stock levels, reservations  
-- **Order Service** (port 8082) → Accepts customer orders, coordinates stock reservations  
-- **Inbound Service** (port 8083) → Records goods received into the warehouse  
+- **Order Service** (port 8082) → Accepts customer orders, coordinates stock reservations    
 - **Picking Service** (port 8084) → Handles allocation of pick tasks for orders  
-- **Shipping Service** (port 8085) → Confirms shipments, reduces on-hand stock  
-- **Billing Service** (port 8086) → Creates invoices, tracks payments  
+- **Shipping Service** (port 8085) → Confirms shipments, reduces on-hand stock  (planned)
+- **Billing Service** (port 8086) → Creates invoices, tracks payments  (planned)
 - **Reporting Service** (port 8087) → Provides stock and order insights  
 - **Gateway (optional)** (port 8080) → API entrypoint  
 - **Frontend (React + Vite)** (port 5173) → UI for interaction
