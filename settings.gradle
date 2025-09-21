@@ -1,0 +1,6 @@
+rootProject.name = 'mini-wms'
+
+include(
+        'backend:inventory-service',
+        'backend:order-service'
+)
